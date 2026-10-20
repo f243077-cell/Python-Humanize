@@ -1,0 +1,9 @@
+test_id,value,binary,gnu,expected,technique
+F01,0,false,false,0 Bytes,BVA
+F02,1,false,false,1 Byte,BVA
+F03,999,false,false,999 Bytes,BVA
+F04,1000,false,false,1.0 kB,BVA
+F05,1024,true,false,1.0 KiB,BVA
+F06,1023,true,false,1023 Bytes,BVA
+F07,3000000,false,false,3.0 MB,ECP
+F08,1024,false,true,1.0K,ECP
