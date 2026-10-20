@@ -1,0 +1,9 @@
+test_id,function,seconds,expected,technique
+T01,naturaldelta,0,a moment,BVA
+T02,naturaldelta,1,a second,BVA
+T03,naturaldelta,59,59 seconds,BVA
+T04,naturaldelta,60,a minute,BVA
+T05,naturaldelta,3600,an hour,BVA
+T06,naturaltime,30,30 seconds ago,ECP
+T07,naturaltime,-30,30 seconds from now,ECP
+T08,naturaltime,0,now,BVA
