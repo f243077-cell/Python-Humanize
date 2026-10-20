@@ -1,0 +1,11 @@
+test_id,function,value,expected,technique
+N01,intcomma,1234567,"1,234,567",ECP
+N02,intcomma,999,999,BVA
+N03,intcomma,1000,"1,000",BVA
+N04,intword,1200000,1.2 million,ECP
+N05,intword,999,999,BVA
+N06,ordinal,1,1st,ECP
+N07,ordinal,11,11th,BVA
+N08,ordinal,22,22nd,ECP
+N09,apnumber,0,zero,BVA
+N10,apnumber,10,10,BVA
